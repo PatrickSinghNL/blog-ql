@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Topic;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -13,6 +14,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\User::factory(10)->create();
+        \App\Models\User::factory(20)->create();
+
+        Topic::create(['name' => 'Featured Sites', 'slug' => 'featured']);
+        Topic::create(['name' => 'Useful links', 'slug' => 'links']);
+        Topic::create(['name' => 'Guides & Tutorials', 'slug' => 'tutorials']);
+
+        \App\Models\Post::factory(20)->create();
     }
 }
