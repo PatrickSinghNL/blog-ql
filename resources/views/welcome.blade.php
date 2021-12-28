@@ -9,11 +9,7 @@
     </head>
     <body class="antialiased">
         <div id="app">
-
+            <router-view></router-view>
         </div>
-        <h1 class="text-3xl font-bold underline decoration-sky-500">
-            Hello world!
-          </h1>
-
     </body>
 </html>
