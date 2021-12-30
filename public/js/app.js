@@ -6765,6 +6765,58 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Post.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Post.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! graphql-tag */ "./node_modules/graphql-tag/lib/index.js");
+var _templateObject;
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  apollo: {
+    post: {
+      query: (0,graphql_tag__WEBPACK_IMPORTED_MODULE_0__["default"])(_templateObject || (_templateObject = _taggedTemplateLiteral(["query ($id: ID!) {\n                post(id: $id) {\n                    id\n                    title\n                    content\n                    author {\n                        id\n                        name\n                        avatar\n                    }\n                    topic {\n                        name\n                        slug\n                    }\n                }\n            }"]))),
+      variables: function variables() {
+        return {
+          id: this.$route.params.id
+        };
+      }
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PostList.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PostList.vue?vue&type=script&lang=js& ***!
@@ -27952,15 +28004,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Post_vue_vue_type_template_id_5e8280ea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Post.vue?vue&type=template&id=5e8280ea& */ "./resources/js/components/Post.vue?vue&type=template&id=5e8280ea&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Post_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Post.vue?vue&type=script&lang=js& */ "./resources/js/components/Post.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
 
 
 /* normalize component */
 ;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Post_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Post_vue_vue_type_template_id_5e8280ea___WEBPACK_IMPORTED_MODULE_0__.render,
   _Post_vue_vue_type_template_id_5e8280ea___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
@@ -28052,6 +28106,22 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 if (false) { var api; }
 component.options.__file = "resources/js/components/PostListItem.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Post.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/Post.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Post_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Post.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Post.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Post_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -28154,61 +28224,62 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "container mx-auto px-4 w-full md:w-3/4 lg:w-3/5 xl:w-1/2 mt-20",
-      },
-      [
-        _c("div", [
-          _c("div", { staticClass: "text-lg text-gray-600" }, [
-            _vm._v("By Patrick Singh in Links - 3 hours ago"),
-          ]),
-          _vm._v(" "),
-          _c("h1", { staticClass: "text-5xl mt-10 font-bold mb-12" }, [
-            _vm._v("The post title"),
-          ]),
-          _vm._v(" "),
-          _c(
-            "p",
-            { staticClass: "text-gray-700 pb-3 mb-12 whitespace-pre-line" },
-            [_vm._v("The blog post content")]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "mb-24 flex" }, [
-            _c("div", { staticClass: "mr-6" }, [
-              _c("img", {
-                staticClass: "w-16 h-16 rounded-full",
-                attrs: {
-                  src: "/storage/faces/ahmad.jpg",
-                  alt: "Author avatar",
-                },
-              }),
+  return _c(
+    "div",
+    {
+      staticClass:
+        "container mx-auto px-4 w-full md:w-3/4 lg:w-3/5 xl:w-1/2 mt-20",
+    },
+    [
+      _vm.$apollo.loading
+        ? _c("div", [_vm._v("Loading ...")])
+        : _c("div", [
+            _c("div", { staticClass: "text-lg text-gray-600" }, [
+              _vm._v(
+                "By " +
+                  _vm._s(_vm.post.author.name) +
+                  " in " +
+                  _vm._s(_vm.post.topic.name) +
+                  " - 3 hours ago"
+              ),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "flex flex-col justify-center" }, [
-              _c("div", { staticClass: "text-xl text-gray-600" }, [
-                _vm._v("Writen by Patrick Singh"),
+            _c("h1", { staticClass: "text-5xl mt-10 font-bold mb-12" }, [
+              _vm._v(_vm._s(_vm.post.title)),
+            ]),
+            _vm._v(" "),
+            _c(
+              "p",
+              { staticClass: "text-gray-700 pb-3 mb-12 whitespace-pre-line" },
+              [_vm._v(_vm._s(_vm.post.content))]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "mb-24 flex" }, [
+              _c("div", { staticClass: "mr-6" }, [
+                _c("img", {
+                  staticClass: "w-16 h-16 rounded-full",
+                  attrs: {
+                    src: "/storage/faces/" + _vm.post.author.avatar,
+                    alt: "Author avatar",
+                  },
+                }),
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "text-gray-600" }, [
-                _vm._v("Published in Links on May 19 , 2020"),
+              _c("div", { staticClass: "flex flex-col justify-center" }, [
+                _c("div", { staticClass: "text-xl text-gray-600" }, [
+                  _vm._v("Writen by " + _vm._s(_vm.post.author.name)),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "text-gray-600" }, [
+                  _vm._v("Published in Links on May 19 , 2020"),
+                ]),
               ]),
             ]),
           ]),
-        ]),
-      ]
-    )
-  },
-]
+    ]
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
