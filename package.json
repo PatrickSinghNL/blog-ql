@@ -33,6 +33,7 @@
         "apollo-link-http": "^1.5.17",
         "graphql": "^15.8.0",
         "graphql-tag": "^2.12.6",
+        "moment": "^2.29.1",
         "vue-apollo": "^3.1.0",
         "vue-router": "^3.5.3"
     }
