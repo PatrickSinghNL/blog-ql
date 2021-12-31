@@ -9,6 +9,7 @@ import PostList from './PostList';
 import Post from './Post';
 import TopicPostList from './TopicPostList';
 import AuthorPostList from './AuthorPostList';
+import NotFound from './NotFound';
 import moment from 'moment';
 
 window.Vue = Vue;
@@ -35,6 +36,11 @@ const routes = [
         path: '/authors/:id',
         name: 'author',
         component: AuthorPostList
+    },
+    {
+        path: '*',
+        name: '404',
+        component: NotFound
     }
 ];
 

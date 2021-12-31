@@ -380,6 +380,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 *, ::before, ::after {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
   --tw-blur: var(--tw-empty,/*!*/ /*!*/);
   --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
   --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
@@ -424,6 +426,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 1536px;
   }
 }
+.absolute {
+  position: absolute;
+}
+.bottom-0 {
+  bottom: 0px;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -435,11 +443,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-20 {
-  margin-top: 5rem;
-}
 .mb-12 {
   margin-bottom: 3rem;
+}
+.mt-20 {
+  margin-top: 5rem;
 }
 .mb-24 {
   margin-bottom: 6rem;
@@ -450,11 +458,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex {
   display: flex;
 }
+.h-screen {
+  height: 100vh;
+}
 .h-16 {
   height: 4rem;
 }
 .w-full {
   width: 100%;
+}
+.w-screen {
+  width: 100vw;
 }
 .w-16 {
   width: 4rem;
@@ -465,11 +479,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-center {
   justify-content: center;
 }
+.self-center {
+  align-self: center;
+}
 .whitespace-pre-line {
   white-space: pre-line;
 }
 .rounded-full {
   border-radius: 9999px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 .px-4 {
   padding-left: 1rem;
@@ -478,9 +502,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pb-3 {
   padding-bottom: 0.75rem;
 }
+.text-center {
+  text-align: center;
+}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -489,10 +524,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -524,29 +555,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.opacity-50 {
+  opacity: 0.5;
+}
 .filter {
   filter: var(--tw-filter);
 }
+
+.text-shadow {
+    text-shadow: 2px 2px 0 rgba(255, 255, 255, 1);
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
+
 @media (min-width: 768px) {
 
   .md\:w-3\/4 {
     width: 75%;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:w-3\/5 {
     width: 60%;
   }
 }
+
 @media (min-width: 1280px) {
 
   .xl\:w-1\/2 {
